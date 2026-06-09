@@ -46,3 +46,18 @@ nvme0n1     259:0    0 953.9G  0 disk
 6. once selected just enter -> clean all 
 7. the process will start and once the disk is done cleaning it will say so
 
+
+
+steps to install Opnsense
+
+1. login installer and password opnsense (default)
+2. after login just followthe instructions 
+  - continue with default key map
+  - install zfs 
+  - pick stripe 
+  - press space and enter on da0 
+  - enter yes 
+  - wait for installation progress to finish 
+  - choose to setup password or not depends on you
+  - default is root and opnsense
+  - then reboot the system
